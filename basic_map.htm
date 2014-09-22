@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDPlRyXG_7P2VG9-ZA2TMqxBGqbFEcGPyE&sensor=false">
+</script>
+
+
+
+<script>
+function initialize()
+{
+		var mapProp = {
+		  center:new google.maps.LatLng(51.508742,-0.120850),
+		  zoom:5,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+		var map=new google.maps.Map(document.getElementById("googleMap")
+		  ,mapProp);
+}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+<button>Click Me</button>
+<h1 id="data" >hello</h1>
+</body>
+</html>
+ <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script>
+ 
+
+    
+		  
+
+		  
+		    $("#data").load("gdata.js",function(){
+		    	var str = $("#data").text();
+		    	var json =  $.parseJSON(str); 	
+
+		    	console.log(json['a']);
+		    });
+
+		    
+		  
+
+</script>

@@ -1,0 +1,29 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-control{
+	position: relative;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-size: 16px;
+}
+
+#login_bg{
+	background: url("../images/login_bg.jpg");
+}
+
+.beige_color{
+	color:beige;
+}

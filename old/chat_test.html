@@ -1,0 +1,32 @@
+<!-- shoutbox -->
+ <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/dashboard.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/bootstrap-multiselect.css" type="text/css"/>
+
+<form id="create_form">
+	<input  type="text" name="test" />
+		<select id="multi" class="multiselect" multiple="multiple">
+				<option value="cheese">Cheese</option>
+				<option value="tomatoes">Tomatoes</option>
+				<option value="mozarella">Mozzarella</option>
+				<option value="mushrooms">Mushrooms</option>
+				<option value="pepperoni">Pepperoni</option>
+				<option value="onions">Onions</option>
+		</select>
+</form>
+<!-- Initialize the plugin: -->
+
+
+<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/bootstrap-multiselect.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.multiselect').multiselect();
+});
+</script>
+
+<!-- shoutbox end -->

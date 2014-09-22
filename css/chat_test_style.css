@@ -1,0 +1,15 @@
+.shout_box{
+	width: 260px;
+	background: #627bae;
+	position: fixed;
+	bottom: 0px;
+	right: 5%;
+	z-index: 9;
+	overflow: hidden;
+}
+
+.header{
+	background: #006699;
+	width: 15px;
+	height: 15px;
+}

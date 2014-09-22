@@ -1,0 +1,12 @@
+1#a#head_office
+2#b#sub_office
+3#c#sub_office
+4#d#sub_office
+5#e#sub_office
+6#f#sub_office
+7#g#sub_office
+8#h#sub_office
+9#i#sub_office
+10#j#sub_office
+11#k#sub_office
+12#l#head_office
